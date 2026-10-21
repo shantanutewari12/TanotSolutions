@@ -48,7 +48,7 @@ export default function Reviews() {
               <b>{reviews.video.captionName}</b> {reviews.video.captionRole}
             </p>
 
-            {/* Collapsible Transcript Placeholder requested by client */}
+            {/* Collapsible Transcript – placeholder text, real transcript coming soon */}
             <div style={{ textAlign: 'center' }}>
               <button
                 type="button"
@@ -56,7 +56,7 @@ export default function Reviews() {
                 onClick={() => setIsTranscriptOpen((prev) => !prev)}
                 aria-expanded={isTranscriptOpen}
               >
-                {isTranscriptOpen ? 'Hide transcript' : 'Read transcript'}
+                {isTranscriptOpen ? 'Hide transcript' : 'Transcript coming soon'}
               </button>
               {isTranscriptOpen && (
                 <div className="transcript-box">

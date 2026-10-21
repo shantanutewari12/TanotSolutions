@@ -28,20 +28,20 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: siteContent.meta.title,
   description: siteContent.meta.description,
-  metadataBase: new URL("https://tanotsolutions.com"),
+  metadataBase: new URL("https://tanotsolution-eight.vercel.app"),
   alternates: {
-    canonical: "/home2/",
+    canonical: "https://tanotsolution-eight.vercel.app/",
   },
   openGraph: {
     title: siteContent.meta.title,
     description: siteContent.meta.description,
-    url: siteContent.meta.url,
+    url: "https://tanotsolution-eight.vercel.app/",
     siteName: "Tanot Solutions",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/images/case-study-chart.webp",
+        url: "https://tanotsolution-eight.vercel.app/images/case-study-chart.webp",
         width: 512,
         height: 296,
         alt: "Tanot Solutions SEO Growth Results",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteContent.meta.title,
     description: siteContent.meta.description,
-    images: ["/images/case-study-chart.webp"],
+    images: ["https://tanotsolution-eight.vercel.app/images/case-study-chart.webp"],
   },
   icons: {
     icon: [
@@ -64,8 +64,8 @@ export const metadata: Metadata = {
     ],
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
   },
 };
 

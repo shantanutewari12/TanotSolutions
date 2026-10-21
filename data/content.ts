@@ -192,13 +192,6 @@ export const siteContent = {
         author: 'Marko Spasic',
         role: 'Marketing Manager, Hosting company',
       },
-      {
-        stars: 5,
-        quote:
-          'Tanot Solutions delivered a steady flow of relevant editorial links and the technical and content support to match, with a clear lift in qualified traffic.',
-        author: 'Lisa Warren',
-        role: 'Content Manager, HR Company',
-      },
     ] as ReviewItem[],
     ctaPrimary: {
       label: 'View All Client Reviews →',
