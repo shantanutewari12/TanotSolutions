@@ -40,7 +40,7 @@ export default function CaseStudy() {
           </div>
         </div>
 
-        <div className="card" style={{ display: 'grid', placeItems: 'center' }}>
+        <div className="card cs-card" style={{ display: 'grid', placeItems: 'center' }}>
           <Image
             src={caseStudy.image.src}
             alt={caseStudy.image.alt}

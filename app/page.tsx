@@ -13,10 +13,12 @@ import FAQ from '@/components/FAQ';
 import BlogInsights from '@/components/BlogInsights';
 import CTABand from '@/components/CTABand';
 import Footer from '@/components/Footer';
+import ScrollReveal from '@/components/ScrollReveal';
 
 export default function Home() {
   return (
     <>
+      <ScrollReveal />
       <Header />
       <main id="top">
         <Hero />

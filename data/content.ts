@@ -324,9 +324,9 @@ export const siteContent = {
     description:
       'Starting from a domain with almost no authority, we built a steady flow of niche-relevant editorial links with the required technical SEO and content changes, and traffic grew from zero to 6,200 visitors in 8 months.',
     kpis: [
-      { value: '0 → 6,200', label: 'Monthly visitors' },
-      { value: '0 → 1.3K', label: 'AI citations' },
-      { value: '0 → 1.6K', label: 'Ranking keywords' },
+      { value: '0 - 6,200', label: 'Monthly visitors' },
+      { value: '0 - 1.3K', label: 'AI citations' },
+      { value: '0 - 1.6K', label: 'Ranking keywords' },
     ] as CaseStudyKpi[],
     primaryCta: {
       label: 'Read full case study',

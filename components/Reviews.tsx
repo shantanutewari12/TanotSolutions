@@ -9,9 +9,9 @@ export default function Reviews() {
   const [isTranscriptOpen, setIsTranscriptOpen] = useState(false);
 
   return (
-    <section className="sec alt" id="reviews" aria-labelledby="reviews-heading">
+    <section className="sec alt reviews-sec" id="reviews" aria-labelledby="reviews-heading">
       <div className="w">
-        <div className="hd">
+        <div className="hd reviews-hd">
           <h2 id="reviews-heading">{reviews.heading}</h2>
           <p>{reviews.subheading}</p>
         </div>

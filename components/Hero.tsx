@@ -29,10 +29,12 @@ export default function Hero() {
 
   return (
     <section className="hero sec">
+      <div className="hero-blob hero-blob-1" aria-hidden="true" />
+      <div className="hero-blob hero-blob-2" aria-hidden="true" />
       <div className="w">
         <div>
           <h1>
-            <span>{hero.headingHighlight}</span>
+            <span className="hero-gradient">{hero.headingHighlight}</span>
             {hero.headingRest}
           </h1>
           <p className="lead">{hero.lead}</p>

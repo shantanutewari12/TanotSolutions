@@ -5,19 +5,15 @@ export default function CTABand() {
 
   return (
     <section className="sec cta" aria-labelledby="cta-band-heading">
+      <div className="cta-circle" aria-hidden="true" />
       <div className="w">
         <h2 id="cta-band-heading">{ctaBand.heading}</h2>
         <div className="ctas" style={{ justifyContent: 'center' }}>
-          <a className="btn" href={ctaBand.primaryCta.href}>
+          <a className="btn cta-btn-white" href={ctaBand.primaryCta.href}>
             {ctaBand.primaryCta.label}
           </a>
           <a
-            className="btn"
-            style={{
-              background: 'transparent',
-              borderColor: '#ffffff',
-              color: '#ffffff',
-            }}
+            className="btn cta-btn-outline"
             href={ctaBand.secondaryCta.href}
             target="_blank"
             rel="noopener noreferrer"
