@@ -192,6 +192,13 @@ export const siteContent = {
         author: 'Marko Spasic',
         role: 'Marketing Manager, Hosting company',
       },
+      {
+        stars: 5,
+        quote:
+          'I’ve been working with Tanot Solutions for backlink support for my clients, and it’s been a really good experience. Renu Sharma is super easy to work with, clear in her communication, and actually cares about getting results, not just delivering links.',
+        author: 'Anish Singh Walia',
+        role: 'Tech Lead @DigitalOcean & Content Strategist',
+      },
     ] as ReviewItem[],
     ctaPrimary: {
       label: 'View All Client Reviews →',

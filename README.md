@@ -1,6 +1,6 @@
 # Tanot Solutions — Homepage Redesign (Next.js)
 
-Pixel-faithful rebuild of the Tanot Solutions homepage redesign mockup, built with Next.js (App Router), TypeScript, and Tailwind CSS. Live test deployment: [tanotsolution-eight.vercel.app](https://tanotsolution-eight.vercel.app).
+Pixel-faithful rebuild of the Tanot Solutions homepage redesign mockup, built with Next.js (App Router), TypeScript, and Tailwind CSS. Live test deployment: [tanotsolutions-eight.vercel.app](https://tanotsolutions-eight.vercel.app).
 
 ## Tech Stack
 - **Framework**: Next.js 16+ (App Router)
@@ -21,7 +21,7 @@ Pixel-faithful rebuild of the Tanot Solutions homepage redesign mockup, built wi
 │   ├── Hero.tsx         # 2-col hero, lead text, CTAs, Clutch badge, lead capture form card
 │   ├── StatsBand.tsx    # 4-col navy gradient band with blue icon circles and animated counters
 │   ├── TrustedBrands.tsx# Infinite auto-scrolling marquee of 16 client logos (pauses on hover)
-│   ├── Reviews.tsx      # Vimeo video facade + Sandeep Das featured review + 2 equal cards
+│   ├── Reviews.tsx      # Direct Vimeo video embed + Sandeep Das featured review + 3 equal cards
 │   ├── Services.tsx     # 6 services tabs (desktop side-by-side list, mobile vertical stack)
 │   ├── CaseStudy.tsx    # 2-col case study, 3 KPI cards, traffic chart inside white card
 │   ├── GrowthPartner.tsx# 3x2 differentiators grid + "Talk to our team" CTA
